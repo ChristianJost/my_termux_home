@@ -1,0 +1,4 @@
+echo "CI NS1 Bern"
+dig @159.144.36.221 ci-bedag.ch SOA +short
+echo "CI NS2 Wettingen"
+dig @159.144.37.222 ci-bedag.ch SOA +short
