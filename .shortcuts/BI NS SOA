@@ -1,0 +1,6 @@
+echo "BI NS1 Bern"
+dig @159.144.8.96 bedag.ch SOA +short
+echo "BI NS2 Bern"
+dig @192.112.254.68 bedag.ch SOA +short
+echo "BI NS4 Bern"
+dig @192.112.254.49 bedag.ch SOA +short

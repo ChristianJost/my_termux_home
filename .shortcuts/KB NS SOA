@@ -1,0 +1,4 @@
+echo "KB NS1 Bern"
+dig @159.144.156.47 kb-bedag.ch SOA +short
+echo "KB NS2 Wettingen"
+dig @159.144.157.47 kb-bedag.ch SOA +short
