@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 echo "Host to check"
 read hosttocheck
 nmap --script ssl-enum-ciphers -p 443 hosttocheck
