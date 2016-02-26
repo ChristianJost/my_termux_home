@@ -1,6 +1,10 @@
 echo "CI NS1 Bern"
+echo "   UDP"
 dig @159.144.36.221 ci-bedag.ch SOA +short
+echo "   TCP"
 dig @159.144.36.221 ci-bedag.ch SOA +short +tcp
 echo "CI NS2 Wettingen"
+echo "   UDP"
 dig @159.144.37.222 ci-bedag.ch SOA +short
+echo "   TCP"
 dig @159.144.37.222 ci-bedag.ch SOA +short +tcp
